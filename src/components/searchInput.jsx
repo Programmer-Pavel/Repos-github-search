@@ -1,22 +1,22 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import React, {useState} from 'react';
+import {makeStyles} from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import InputBase from '@material-ui/core/InputBase';
-import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
-import DirectionsIcon from '@material-ui/icons/Directions';
+import {useDispatch} from "react-redux";
+import {getRepos} from "./actions/repos";
+import {setCurrentPage} from "../reducers/reposReducer";
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        padding: '2px 4px',
+        padding: '0',
         display: 'flex',
         alignItems: 'center',
-        width: 600
+        width: '100%'
     },
     input: {
-        marginLeft: theme.spacing(1),
+        marginLeft: theme.spacing(3),
         flex: 1,
     },
     iconButton: {
@@ -24,17 +24,27 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export const SearchInput = () => {
-    const classes = useStyles();
+export const SearchInput = ({setSearchValue, searchValue}) => {
+    const classes = useStyles()
+    const dispatch = useDispatch()
+
+    const searchHandler = (e) => {
+        dispatch(setCurrentPage(1))
+        dispatch(getRepos(searchValue))
+    }
 
     return (
         <Paper component="form" className={classes.root}>
             <InputBase
                 className={classes.input}
                 placeholder="Search Repos"
-                inputProps={{ 'aria-label': 'search repos' }}
+                inputProps={{'aria-label': 'search repos'}}
+                value={searchValue}
+                onChange={(e) => {
+                    setSearchValue(e.target.value)
+                }}
             />
-            <IconButton type="submit" className={classes.iconButton} aria-label="search">
+            <IconButton onClick={() => searchHandler()} className={classes.iconButton} aria-label="search">
                 <SearchIcon />
             </IconButton>
         </Paper>

@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="create repos-github-search,">
-      <change afterPath="$PROJECT_DIR$/src/components/card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/reposReducer.js" afterDir="false" />
+    <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/actions/repos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Repo/Repo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Repo/Repo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/pagesCreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardRepo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/searchInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reposReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reposReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +47,12 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\Projects\repos-github\src\components\main\Repo" />
+      <recent name="D:\react\Projects\repos-github\src\components\main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -56,8 +67,18 @@
       <option name="presentableId" value="Default" />
       <updated>1614535828703</updated>
       <workItem from="1614535830844" duration="949000" />
-      <workItem from="1614537995446" duration="4838000" />
+      <workItem from="1614537995446" duration="5245000" />
+      <workItem from="1614584722301" duration="11859000" />
+      <workItem from="1614602450253" duration="3060000" />
     </task>
+    <task id="LOCAL-00001" summary="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer">
+      <created>1614543745478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614543745478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +94,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer" />
   </component>
 </project>
