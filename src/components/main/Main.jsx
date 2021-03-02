@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import {SearchInput} from "../searchInput";
-import {ReposContainer} from "../cardRepo";
+import {ReposContainer} from "../reposContainer";
 import {useDispatch, useSelector} from "react-redux";
 import {getRepos} from "../actions/repos";
 import {makeStyles} from '@material-ui/core/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import {setCurrentPage} from "../../reducers/reposReducer";
 import {createPages} from "../../utils/pagesCreator";
-import Pagination from '@material-ui/lab/Pagination';
 import './Main.css';
+import {NavLink} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const Main = () => {
+export const Main = () => {
     const classes = useStyles();
     const dispatch = useDispatch()
     const repos = useSelector(state => state.repos.items)
@@ -62,4 +62,3 @@ const Main = () => {
     );
 };
 
-export default Main;

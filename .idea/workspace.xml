@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/actions/repos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Repo/Repo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Repo/Repo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/pagesCreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardRepo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/searchInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reposReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reposReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cardRepo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reposContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Repo/Repo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/repo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Repo/Repo.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +61,9 @@
       <workItem from="1614535830844" duration="949000" />
       <workItem from="1614537995446" duration="5245000" />
       <workItem from="1614584722301" duration="11859000" />
-      <workItem from="1614602450253" duration="3060000" />
+      <workItem from="1614602450253" duration="3329000" />
+      <workItem from="1614711424432" duration="3759000" />
+      <workItem from="1614715265234" duration="468000" />
     </task>
     <task id="LOCAL-00001" summary="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer">
       <created>1614543745478</created>
@@ -98,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer" />
+    <MESSAGE value="pagination, search repositories, loader realizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagination, search repositories, loader realizations" />
   </component>
 </project>

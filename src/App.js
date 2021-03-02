@@ -1,21 +1,21 @@
 import './App.css';
-import {ReposContainer} from "./components/cardRepo";
-import {SearchInput} from "./components/searchInput";
-import {useDispatch} from "react-redux";
-import {BrowserRouter, Route} from "react-router-dom";
-import Main from "./components/main/Main";
+import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
+import {Main} from "./components/main/Main";
+import {Repo} from "./components/repo";
+import React from "react";
 
 function App() {
 
-    const dispatch = useDispatch()
-
-
     return (
-        <BrowserRouter>
             <div className="app">
-                <Route path='/' component={Main}/>
+                <BrowserRouter>
+                    <Switch>
+                        <Route exact path='/' component={Main}/>
+                        <Route path='/repo' component={Repo}/>
+                        <Redirect to='/'/>
+                    </Switch>
+                </BrowserRouter>
             </div>
-        </BrowserRouter>
     );
 }
 

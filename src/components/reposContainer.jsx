@@ -4,6 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import StarIcon from '@material-ui/icons/Star';
+import {NavLink} from "react-router-dom";
 
 const useStyles = makeStyles({
     root: {
@@ -15,6 +16,9 @@ const useStyles = makeStyles({
     },
     link: {
         textDecoration: 'none'
+    },
+    linkContainer: {
+        display: 'flex'
     },
     stars: {
         display: 'flex',
@@ -40,9 +44,7 @@ export const ReposContainer = (props) => {
         <Card className={classes.root}>
             <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                    <a className={classes.link} href={repo.html_url}>
-                        <div className={classes.name}>{repo.name}</div>
-                    </a>
+                    <NavLink className={classes.link} to='/repo'>{repo.name}</NavLink>
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                     <div className={classes.stars}>
@@ -53,6 +55,10 @@ export const ReposContainer = (props) => {
                     <div className={classes.lastCommit}>
                         <div className={classes.fontWeight}>Последний коммит</div>
                         : {repo.updated_at}
+                    </div>
+                    <div className={classes.linkContainer}>
+                        <div className={classes.fontWeight}>Ссылка на репозиторий</div>
+                        : <a className={classes.link} href={repo.html_url}>{repo.html_url}</a>
                     </div>
                 </Typography>
             </CardContent>
