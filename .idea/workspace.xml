@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/repo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cardRepo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reposContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Repo/Repo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/repo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Repo/Repo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/actions/repos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actions/repos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/repo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/repo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reposContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reposContainer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\Projects\repos-github\src\components" />
       <recent name="D:\react\Projects\repos-github\src\components\main\Repo" />
       <recent name="D:\react\Projects\repos-github\src\components\main" />
     </key>
@@ -63,7 +62,7 @@
       <workItem from="1614584722301" duration="11859000" />
       <workItem from="1614602450253" duration="3329000" />
       <workItem from="1614711424432" duration="3759000" />
-      <workItem from="1614715265234" duration="468000" />
+      <workItem from="1614715265234" duration="1888000" />
     </task>
     <task id="LOCAL-00001" summary="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer">
       <created>1614543745478</created>
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614543745478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BrowserRouter, Switch, Redirect, NavLink">
+      <created>1614715882013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614715882013</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer" />
     <MESSAGE value="pagination, search repositories, loader realizations" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagination, search repositories, loader realizations" />
+    <MESSAGE value="BrowserRouter, Switch, Redirect, NavLink" />
+    <option name="LAST_COMMIT_MESSAGE" value="BrowserRouter, Switch, Redirect, NavLink" />
   </component>
 </project>

@@ -11,7 +11,7 @@ function App() {
                 <BrowserRouter>
                     <Switch>
                         <Route exact path='/' component={Main}/>
-                        <Route path='/repo' component={Repo}/>
+                        <Route path='/repo/:username/:reponame' component={Repo}/>
                         <Redirect to='/'/>
                     </Switch>
                 </BrowserRouter>

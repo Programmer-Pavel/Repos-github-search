@@ -44,7 +44,7 @@ export const ReposContainer = (props) => {
         <Card className={classes.root}>
             <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                    <NavLink className={classes.link} to='/repo'>{repo.name}</NavLink>
+                    <NavLink className={classes.link} to={`/repo/${repo.owner.login}/${repo.name}`}>{repo.name}</NavLink>
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                     <div className={classes.stars}>
