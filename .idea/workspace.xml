@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="error processing: try-catch,&#10;repo-card layout">
+    <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614765033646</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added some styles for image and button &quot;back&quot;">
+      <created>1614789652643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614789652643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +127,7 @@
     <MESSAGE value="Repository page" />
     <MESSAGE value="Repository page, useParams" />
     <MESSAGE value="error processing: try-catch,&#10;repo-card layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="error processing: try-catch,&#10;repo-card layout" />
+    <MESSAGE value="added some styles for image and button &quot;back&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some styles for image and button &quot;back&quot;" />
   </component>
 </project>
