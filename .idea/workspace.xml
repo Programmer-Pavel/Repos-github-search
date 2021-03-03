@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/repo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/actions/repos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actions/repos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/repo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/repo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/repo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/repo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reposContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reposContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reposReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reposReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +62,8 @@
       <workItem from="1614584722301" duration="11859000" />
       <workItem from="1614602450253" duration="3329000" />
       <workItem from="1614711424432" duration="3759000" />
-      <workItem from="1614715265234" duration="1888000" />
+      <workItem from="1614715265234" duration="2130000" />
+      <workItem from="1614758056304" duration="6683000" />
     </task>
     <task id="LOCAL-00001" summary="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer">
       <created>1614543745478</created>
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614715882013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Repository page, useParams">
+      <created>1614717414289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614717414289</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,8 @@
     <MESSAGE value="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer" />
     <MESSAGE value="pagination, search repositories, loader realizations" />
     <MESSAGE value="BrowserRouter, Switch, Redirect, NavLink" />
-    <option name="LAST_COMMIT_MESSAGE" value="BrowserRouter, Switch, Redirect, NavLink" />
+    <MESSAGE value="Repository page" />
+    <MESSAGE value="Repository page, useParams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repository page, useParams" />
   </component>
 </project>

@@ -8,7 +8,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import {setCurrentPage} from "../../reducers/reposReducer";
 import {createPages} from "../../utils/pagesCreator";
 import './Main.css';
-import {NavLink} from "react-router-dom";
+import {Alert, AlertTitle} from "@material-ui/lab";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const Main = () => {
+
     const classes = useStyles();
     const dispatch = useDispatch()
     const repos = useSelector(state => state.repos.items)
@@ -26,10 +27,11 @@ export const Main = () => {
     const currentPage = useSelector(state => state.repos.currentPage)
     const perPage = useSelector(state => state.repos.perPage)
     const totalCount = useSelector(state => state.repos.totalCount)
-    const pagesCount = Math.ceil(totalCount / perPage)
+    const isFetchError = useSelector(state => state.repos.isFetchError)
 
     const [searchValue, setSearchValue] = useState('')
 
+    const pagesCount = Math.ceil(totalCount / perPage)
     const pages = []
 
     createPages(pages, pagesCount, currentPage)
@@ -40,6 +42,13 @@ export const Main = () => {
 
     return (
         <div>
+            {isFetchError &&
+            <Alert severity="error">
+                <AlertTitle>Error</AlertTitle>
+                Произошла ошибка! — <strong>Пожалуйста, обновите страницу!</strong>
+            </Alert>
+            }
+
             <SearchInput searchValue={searchValue} setSearchValue={setSearchValue}/>
             {!isFetching ?
                 repos.map(repo => {
@@ -49,7 +58,6 @@ export const Main = () => {
                     <CircularProgress/>
                 </div>
             }
-
 
             <div className="pages">
                 {pages.map((page, index) => <span
