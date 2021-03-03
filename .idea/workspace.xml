@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="">
+    <list default="true" id="ee4db8ef-8ea8-4e57-8a9c-735618d4d0fc" name="Default Changelist" comment="error processing: try-catch,&#10;repo-card layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/actions/repos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actions/repos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/repo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/repo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/repo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/repo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reposReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reposReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1p7YvfrKo9l5fnrILYh0TvDyuxf" />
@@ -63,7 +65,7 @@
       <workItem from="1614602450253" duration="3329000" />
       <workItem from="1614711424432" duration="3759000" />
       <workItem from="1614715265234" duration="2130000" />
-      <workItem from="1614758056304" duration="6683000" />
+      <workItem from="1614758056304" duration="13610000" />
     </task>
     <task id="LOCAL-00001" summary="create repos-github-search,added Material Ui, redux, redux-devtools, create searchRepos, reposContainer components, reposReducer.js reducer">
       <created>1614543745478</created>
@@ -86,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614717414289</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="error processing: try-catch,&#10;repo-card layout">
+      <created>1614765033646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614765033646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +119,7 @@
     <MESSAGE value="BrowserRouter, Switch, Redirect, NavLink" />
     <MESSAGE value="Repository page" />
     <MESSAGE value="Repository page, useParams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repository page, useParams" />
+    <MESSAGE value="error processing: try-catch,&#10;repo-card layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="error processing: try-catch,&#10;repo-card layout" />
   </component>
 </project>
